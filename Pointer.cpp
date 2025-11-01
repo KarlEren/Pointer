@@ -10,11 +10,6 @@ struct man
     man(int a, int b, int c):a(a),b(b),c(c){}
 };
 
-void Test()
-{
-    
-}
-
 int main(int argc, char* argv[])
 {
     auto m=makeUnique<man>(10,100,1000);
